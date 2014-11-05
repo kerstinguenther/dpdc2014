@@ -1,0 +1,7 @@
+de.metanome.algorithms.LucieKerstinUCC@38eba9b0
+
+Runtime: 2471
+
+Config:
+	databaseName: huge
+	tableNames: ncvoter-1k
