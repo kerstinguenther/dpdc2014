@@ -1,7 +1,7 @@
-de.metanome.algorithms.LucieKerstinUCC@38eba9b0
+de.metanome.algorithms.LucieKerstinUCC@77d17f01
 
-Runtime: 2471
+Runtime: 8
 
 Config:
-	databaseName: huge
-	tableNames: ncvoter-1k
+	databaseName: planets
+	tableNames: WDC_planets

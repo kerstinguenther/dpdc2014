@@ -9,7 +9,7 @@ public class Config {
 	}
 	
 	public enum Dataset {
-		PLANETS, VOTER, VOTER_1K
+		PLANETS, VOTER, VOTER_1K, TEST
 	}
 	
 	public Config.Algorithm algorithm = Config.Algorithm.MYUCC;
@@ -57,6 +57,10 @@ public class Config {
 			case VOTER_1K:
                 this.databaseName = "huge";
                 this.tableNames = new String[] {"ncvoter-1k"}; // TODO: Add all tables of the planets data set here for the IND detection task!
+                break;
+			case TEST:
+                this.databaseName = "planets";
+                this.tableNames = new String[] {"WDC_planets_modified"}; // TODO: Add all tables of the planets data set here for the IND detection task!
                 break;
 		}
 	}

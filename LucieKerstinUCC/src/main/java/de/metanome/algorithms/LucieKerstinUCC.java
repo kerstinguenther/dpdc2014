@@ -19,7 +19,7 @@ public class LucieKerstinUCC extends LucieKerstinUCCAlgorithm implements UniqueC
 	
 	@Override
 	public ArrayList<ConfigurationRequirement> getConfigurationRequirements() {
-		ArrayList<ConfigurationRequirement> conf = new ArrayList<>();
+		ArrayList<ConfigurationRequirement> conf = new ArrayList<ConfigurationRequirement>();
 		conf.add(new ConfigurationRequirementRelationalInput(LucieKerstinUCC.Identifier.INPUT_GENERATOR.name()));
 		//conf.add(new ConfigurationRequirementRelationalInput(LucieKerstinUCC.Identifier.INPUT_GENERATOR.name(), ConfigurationRequirement.ARBITRARY_NUMBER_OF_VALUES)); // For IND discovery, the number of inputs is arbitrary
 		return conf;

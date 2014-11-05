@@ -8,7 +8,7 @@ import de.uni_potsdam.hpi.metanome_test_runner.mocks.MetanomeMock;
 public class MetanomeTestRunner {
 
 	public static void run() {
-		Config conf = new Config(Config.Algorithm.MYUCC, Config.Dataset.VOTER_1K);
+		Config conf = new Config(Config.Algorithm.MYUCC, Config.Dataset.PLANETS);
 		
 		run(conf);
 	}
